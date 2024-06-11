@@ -17,7 +17,8 @@ let student = {studentId : "Matno",
    Level : "500", 
    FullName: function(){
     return this.firstName + " " + this.lastName;  }};
-// In Methods, we use the this keyword to call out the values of the properties in an OBJECT
+// Methods are functions that run in an object, and the . is used to fetch a property of an object object.property
+    // In Methods, we use the this keyword to call out the values of the properties in an OBJECT
 console.log(student);
 console.log(student.FullName());
 // convert to case
@@ -26,9 +27,23 @@ console.log(student.FullName());
   }
   console.log(Xcase());
 
-// Methods are functions that run in an object, and the . is used to fetch a property of an object object.property
-
-
+//  Object in Loops.
+//Using Objet.entries() 
+let text = "";
+for (let [stud, value] of Object.entries(student)) {
+  text += student + ": " + value;
+}
   
-
+// constructors
+function Person(first, last, age, eye, race) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+  this.Race = race;
+}
+const myFather = new Person("Roalnd", "Oise", 70, cls
+  "fair", "Black");
+const myMother = new Person("Grace", "Oise", 62, "dark", "black");
+const mySelf = new Person("Godswill", "Oise", "24", "fair", "Black");
 
