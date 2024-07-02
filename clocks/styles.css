@@ -1,0 +1,130 @@
+.container{
+    
+    min-height: 1000px;
+    min-width: 1000px;
+    align-items: center;
+    text-align: center;
+    text-size-adjust:100px;
+    display: flexbox;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50%;
+    padding-bottom: 20px;
+    position:relative;
+   
+    justify-content: center;
+    background-color:aqua;
+
+
+}
+
+#clock{
+    color: aliceblue;
+    display:inline-flex;
+    min-width:120px;
+    text-align:centre;
+    margin: 2 5px;
+    padding: 50px;
+    padding-right:100px;
+    padding-left: 150px;
+    background-color:rgb(24, 2, 53);
+}
+
+
+.innerHour{
+    height: 38px;
+    width: 57px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+    justify-content: center;
+    
+    
+
+}
+.outerHour{
+    height: 65px;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+   
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+}
+    
+    
+
+
+.innerMinutes{
+
+    height: 38px;
+    width: 57px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+}
+
+.outerMinutes{
+    height: 49spx;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}    
+
+.innerSeconds{
+    height: 38px;
+    width: 57px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+    
+}
+.outerSeconds{
+    height: 49spx;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+}
+
+.innerAmOrPm{
+    height: 38px;
+    width: 57px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+}
+.outerAmOrPm{
+    height: 49spx;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+}
