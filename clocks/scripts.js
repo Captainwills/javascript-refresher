@@ -27,7 +27,7 @@ function displayTime(){
     }
   amOrPm();
 
-    document.getElementById("Hour").innerHTML = hour + ":" ;
+    document.getElementById("Hour").innerHTML = hour + "  " +":" ;
     document.getElementById("Minutes").innerHTML = minutes + ":";
     document.getElementById("Seconds").innerHTML = seconds;
      
