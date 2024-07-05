@@ -1,0 +1,63 @@
+/* header{
+    background-color: rgb(8, 3, 17);
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height:50px;
+    padding-top: 20px;
+    border-radius: 2.5%;
+    border: 2.5px solid rgb(63, 53, 101);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+} */
+/* #Goggi{
+   margin:0; 
+} */
+
+.video-bg{
+    position:absolute;
+    top:2;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1;
+
+}
+
+#content{
+    z-index:1;
+    position:relative;
+    display: flex;
+    justify-content:center;
+    
+    height: 100vh;
+}
+
+
+.connect{
+    width: 110px;
+    height: 45px;
+    margin-top: 3%;
+    margin-left: 70vw;
+    border:2px solid rgb(27, 27, 70);
+    border-radius: 32%;
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jacket{
+    background-color:transparent;
+    border: 4px solid rgb(33, 33, 108);
+    border-radius: 10%;
+    width: 380px;
+    height: 380px;
+    margin-top: 25vh;
+    position:fixed;
+
+
+}
+    
